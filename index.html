@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Catch The Insect</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch The Insect</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>Wanna catch bugs?? :)</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Butterfly</p>
+            <img src="https://pngimg.com/uploads/butterfly/butterfly_PNG103808.png" alt="butterfly">
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Ladybug</p>
+            <img
+               src="https://pngimg.com/uploads/ladybug/small/ladybug_PNG3967.png"
+               alt="ladybug"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Bumblebee</p>
+            <img
+               src="https://pngimg.com/uploads/bee/bee_PNG7.png"
+               alt="spider"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Worm</p>
+            <img
+               src="https://pngimg.com/uploads/worms/small/worms_PNG36.png"
+               alt="worm"
+               />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        There's just too many of them! You can't catch them all! <br>
+        Take cover!! AAAAAAAA!!!!
+      </h5>
+    </div>
+  </body>
+</html>
